@@ -1,7 +1,7 @@
 /**
  * Copyright (c) 2016-2019 人人开源 All rights reserved.
  *
- * https://www.renren.io
+
  *
  * 版权所有，侵权必究！
  */
@@ -25,7 +25,7 @@ import java.util.List;
 @TableName("sys_menu")
 public class SysMenuEntity implements Serializable {
 	private static final long serialVersionUID = 1L;
-	
+
 	/**
 	 * 菜单ID
 	 */
@@ -36,7 +36,7 @@ public class SysMenuEntity implements Serializable {
 	 * 父菜单ID，一级菜单为0
 	 */
 	private Long parentId;
-	
+
 	/**
 	 * 父菜单名称
 	 */
@@ -72,7 +72,7 @@ public class SysMenuEntity implements Serializable {
 	 * 排序
 	 */
 	private Integer orderNum;
-	
+
 	/**
 	 * ztree属性
 	 */

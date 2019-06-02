@@ -1,7 +1,7 @@
 /**
  * Copyright (c) 2016-2019 人人开源 All rights reserved.
  *
- * https://www.renren.io
+
  *
  * 版权所有，侵权必究！
  */
@@ -27,7 +27,7 @@ import java.util.List;
 @TableName("sys_role")
 public class SysRoleEntity implements Serializable {
 	private static final long serialVersionUID = 1L;
-	
+
 	/**
 	 * 角色ID
 	 */
@@ -44,7 +44,7 @@ public class SysRoleEntity implements Serializable {
 	 * 备注
 	 */
 	private String remark;
-	
+
 	/**
 	 * 创建者ID
 	 */
@@ -52,11 +52,11 @@ public class SysRoleEntity implements Serializable {
 
 	@TableField(exist=false)
 	private List<Long> menuIdList;
-	
+
 	/**
 	 * 创建时间
 	 */
 	private Date createTime;
 
-	
+
 }

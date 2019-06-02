@@ -1,7 +1,7 @@
 /**
  * Copyright (c) 2016-2019 人人开源 All rights reserved.
  *
- * https://www.renren.io
+
  *
  * 版权所有，侵权必究！
  */
@@ -21,9 +21,9 @@ import java.util.List;
  * @author Big Hero
  */
 public interface SysUserRoleService extends IService<SysUserRoleEntity> {
-	
+
 	void saveOrUpdate(Long userId, List<Long> roleIdList);
-	
+
 	/**
 	 * 根据用户ID，获取角色ID列表
 	 */

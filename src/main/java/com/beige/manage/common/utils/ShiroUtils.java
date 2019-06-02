@@ -1,7 +1,7 @@
 /**
  * Copyright (c) 2016-2019 人人开源 All rights reserved.
  *
- * https://www.renren.io
+
  *
  * 版权所有，侵权必究！
  */
@@ -36,7 +36,7 @@ public class ShiroUtils {
 	public static Long getUserId() {
 		return getUserEntity().getUserId();
 	}
-	
+
 	public static void setSessionAttribute(Object key, Object value) {
 		getSession().setAttribute(key, value);
 	}

@@ -1,7 +1,7 @@
 /**
  * Copyright (c) 2016-2019 人人开源 All rights reserved.
  *
- * https://www.renren.io
+
  *
  * 版权所有，侵权必究！
  */
@@ -26,12 +26,12 @@ import java.util.Date;
 @TableName("schedule_job")
 public class ScheduleJobEntity implements Serializable {
 	private static final long serialVersionUID = 1L;
-	
+
 	/**
 	 * 任务调度参数key
 	 */
     public static final String JOB_PARAM_KEY = "JOB_PARAM_KEY";
-	
+
 	/**
 	 * 任务id
 	 */
@@ -43,12 +43,12 @@ public class ScheduleJobEntity implements Serializable {
 	 */
 	@NotBlank(message="bean名称不能为空")
 	private String beanName;
-	
+
 	/**
 	 * 参数
 	 */
 	private String params;
-	
+
 	/**
 	 * cron表达式
 	 */

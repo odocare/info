@@ -1,7 +1,7 @@
 /**
  * Copyright (c) 2016-2019 人人开源 All rights reserved.
  *
- * https://www.renren.io
+
  *
  * 版权所有，侵权必究！
  */
@@ -20,7 +20,7 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class SpringContextUtils implements ApplicationContextAware {
-	public static ApplicationContext applicationContext; 
+	public static ApplicationContext applicationContext;
 
 	@Override
 	public void setApplicationContext(ApplicationContext applicationContext)
